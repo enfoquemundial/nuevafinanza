@@ -35,9 +35,20 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://www.nuevafinanza.com/autor/manuel-objio/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://www.nuevafinanza.com/autor/redaccion-nueva-finanza/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.nuevafinanza.com/empresas/memoria-empresarial-y-su-valor-financiero-lecciones-de-la-inteligencia-artificial-1786949094289/</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.nuevafinanza.com/empresas/que-es-el-marketing-de-afiliados-y-por-que-esta-creciendo-en-mexico-1786945970553/</loc>
