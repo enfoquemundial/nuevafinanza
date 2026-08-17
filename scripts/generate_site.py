@@ -29,8 +29,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NEWS_PATH = os.path.join(ROOT, "data", "news.json")
 # IMPORTANTE: reemplaza esto por tu usuario y el nombre real del repositorio
 # de GitHub que vayas a crear para este sitio.
-GITHUB_OWNER = "TU-USUARIO-GITHUB"
-GITHUB_REPO = "finanzas-business"
+GITHUB_OWNER = "enfoquemundial"
+GITHUB_REPO = "nuevafinanza"
 
 SITE_NAME = "Nueva Finanza"
 SITE_TAGLINE = "Entiende tus finanzas, sin complicaciones"
@@ -408,6 +408,12 @@ def generate_article_page(n, news):
     paragraphs = "".join(f"<p class='mb-5 leading-relaxed text-slate-700'>{esc(p)}</p>"
                           for p in n["content"].split("\n") if p.strip())
 
+    title_esc = esc(n["title"])
+    hero_image_html = "".join(
+        f'<div class="mb-10"><img src="{img}" alt="{title_esc}" class="w-full rounded-2xl shadow-lg" loading="lazy"></div>'
+        for img in n.get("images", [])[:1]
+    )
+
     body = f"""
 {nav(url, news)}
 {breadcrumbs(crumbs, url)}
@@ -423,7 +429,7 @@ def generate_article_page(n, news):
             </div>
         </div>
         {summary_html}
-        {"".join(f'<div class="mb-10"><img src="{img}" alt="{esc(n['title'])}" class="w-full rounded-2xl shadow-lg" loading="lazy"></div>' for img in n.get('images', [])[:1])}
+        {hero_image_html}
         <div class="prose prose-lg max-w-none">
             {paragraphs}
         </div>

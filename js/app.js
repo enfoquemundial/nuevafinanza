@@ -1,7 +1,7 @@
 const STORAGE_KEY = 'finanzas_business_news';
 // --- CONFIGURACIÓN PARA TODOS LOS USUARIOS ---
-const GITHUB_USER = 'TU-USUARIO-GITHUB'; // <--- Pon aquí tu usuario exacto de GitHub
-const GITHUB_REPO = 'finanzas-business'; // <--- Pon aquí el nombre de tu repositorio
+const GITHUB_USER = 'enfoquemundial'; // <--- Pon aquí tu usuario exacto de GitHub
+const GITHUB_REPO = 'nuevafinanza'; // <--- Pon aquí el nombre de tu repositorio
 const DATA_URL = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/main/data/news.json`;
 
 const ITEMS_PER_PAGE = 10;
