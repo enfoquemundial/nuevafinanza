@@ -25,9 +25,25 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://www.nuevafinanza.com/empresas/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.nuevafinanza.com/autor/carla-espinal/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://www.nuevafinanza.com/autor/redaccion-nueva-finanza/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.nuevafinanza.com/empresas/que-es-el-marketing-de-afiliados-y-por-que-esta-creciendo-en-mexico-1786945970553/</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.nuevafinanza.com/inversion/que-significa-invertir-en-sectores-y-por-que-los-bancos-hacen-recomendaciones-estrategicas-1786942013692/</loc>
