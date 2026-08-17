@@ -25,6 +25,17 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://www.nuevafinanza.com/autor/redaccion-nueva-finanza/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.nuevafinanza.com/inversion/que-significa-invertir-en-sectores-y-por-que-los-bancos-hacen-recomendaciones-estrategicas-1786942013692/</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.nuevafinanza.com/empresas/consolidacion-empresarial-que-significa-cuando-las-empresas-se-fusionan-en-un-sector-emergente-1786941632207/</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>weekly</changefreq>
