@@ -30,6 +30,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.nuevafinanza.com/inversion/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.nuevafinanza.com/autor/carla-espinal/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -43,6 +48,12 @@
     <loc>https://www.nuevafinanza.com/autor/redaccion-nueva-finanza/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.nuevafinanza.com/inversion/que-es-la-volatilidad-sectorial-y-por-que-algunos-mercados-caen-juntos-1787096844480/</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.nuevafinanza.com/empresas/que-son-los-neobancos-y-como-estan-transformando-la-banca-tradicional-1787084430161/</loc>
