@@ -35,6 +35,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.nuevafinanza.com/mercados/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.nuevafinanza.com/autor/carla-espinal/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -48,6 +53,12 @@
     <loc>https://www.nuevafinanza.com/autor/redaccion-nueva-finanza/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.nuevafinanza.com/mercados/como-influyen-los-bonos-del-tesoro-en-el-mercado-de-acciones-1787229462194/</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.nuevafinanza.com/empresas/diversificacion-de-productos-como-las-empresas-gestionan-su-cartera-para-alcanzar-nuevos-mercados-1787183224150/</loc>
