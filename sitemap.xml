@@ -25,6 +25,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://www.nuevafinanza.com/economia/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.nuevafinanza.com/empresas/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -53,6 +58,12 @@
     <loc>https://www.nuevafinanza.com/autor/redaccion-nueva-finanza/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.nuevafinanza.com/economia/que-son-las-subvenciones-gubernamentales-y-como-impulsan-sectores-estrategicos-1787488176599/</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.nuevafinanza.com/empresas/inversion-en-electrificacion-automotriz-que-significa-la-reconversion-industrial-para-empresas-y-economias-1787442350386/</loc>
