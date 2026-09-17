@@ -152,6 +152,7 @@ def head(title, description, canonical_url, og_type="website", og_image="", extr
         }});
     </script>
     <!-- Google tag (gtag.js) — ID de Google Analytics de Nueva Finanza -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4437962050949835" crossorigin="anonymous"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VD1W8XVLVH"></script>
     <script>
         gtag("js", new Date());
@@ -715,13 +716,12 @@ def generate_static_pages():
             <p>¿Tienes una consulta, sugerencia o encontraste un error en algún artículo? Escríbenos:</p>
             <p><strong>Correo general:</strong> <a href="mailto:contacto@nuevafinanza.com" class="text-emerald-600 hover:underline">contacto@nuevafinanza.com</a></p>
             <p><strong>Correo editorial / correcciones:</strong> <a href="mailto:editorial@nuevafinanza.com" class="text-emerald-600 hover:underline">editorial@nuevafinanza.com</a></p>
-            <p class="text-sm text-slate-500 mt-8">Nota: las direcciones de correo deben configurarse para que funcionen de verdad antes de publicar el sitio.</p>
         </div>
     """)
 
     pages["privacidad.html"] = ("Política de Privacidad", "Política de privacidad de Nueva Finanza.", f"""
         <h1 class="text-3xl font-display font-bold mb-4">Política de Privacidad</h1>
-        <p class="text-slate-400 text-sm mb-8">Última actualización: {datetime.now(timezone.utc).strftime('%d de %B de %Y')}</p>
+        <p class="text-slate-400 text-sm mb-8">Última actualización: {fmt_date(datetime.now(timezone.utc).isoformat())}</p>
         <div class="prose prose-lg max-w-none space-y-4 text-slate-700">
             <p>En Nueva Finanza respetamos la privacidad de quienes visitan este sitio. Esta política explica qué información recopilamos y cómo la usamos.</p>
             <h2 class="text-xl font-bold mt-8 mb-3">1. Responsable del tratamiento</h2>
@@ -743,7 +743,7 @@ def generate_static_pages():
 
     pages["terminos.html"] = ("Términos y Condiciones", "Términos y condiciones de uso de Nueva Finanza.", f"""
         <h1 class="text-3xl font-display font-bold mb-4">Términos y Condiciones</h1>
-        <p class="text-slate-400 text-sm mb-8">Última actualización: {datetime.now(timezone.utc).strftime('%d de %B de %Y')}</p>
+        <p class="text-slate-400 text-sm mb-8">Última actualización: {fmt_date(datetime.now(timezone.utc).isoformat())}</p>
         <div class="prose prose-lg max-w-none space-y-4 text-slate-700">
             <h2 class="text-xl font-bold mt-8 mb-3">1. Naturaleza del contenido</h2>
             <p>Todo el contenido publicado en Nueva Finanza tiene fines informativos y educativos. <strong>No constituye asesoría financiera, legal, fiscal ni de inversión</strong>, y no debe interpretarse como una recomendación para comprar, vender o mantener ningún instrumento financiero. Antes de tomar decisiones financieras importantes, consulta con un profesional certificado.</p>
@@ -1012,4 +1012,3 @@ def apply_delete(article_id, news):
 if __name__ == "__main__":
     build_all()
     print("Sitio estático generado correctamente.")
-
